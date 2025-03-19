@@ -1,16 +1,27 @@
 #=> Ask FM System (C++)
-  - A Q&A platform inspired by Ask FM, built with modern C++.
+  
+  
+  
+- A Q&A platform inspired by Ask FM, built with modern C++.
 
-   @ Overview:
-     This project simulates a simplified Ask FM-style system where users can:
-     // * Sign up and log in with credentials.
-     // * Ask questions to other users (with optional threaded replies).
-     // * Answer questions directed to them.
-     // * Delete questions they’ve asked.
-     // * View public feeds of questions and answers.
-     // * Persist data to text files (Users.txt and Questions.txt).
+   @ Overview:                                                                                                                              
      
-   @ Features: 
+     This project simulates a simplified Ask FM-style system where users can:                                                                                            
+     
+     // * Sign up and log in with credentials.                                                                                                                           
+     
+     // * Ask questions to other users (with optional threaded replies).                                                                                                 
+     
+     // * Answer questions directed to them.                                                                                                                                                                          
+     
+     // * Delete questions they’ve asked.                                                                                                                           
+                                                                                                                                                
+     // * View public feeds of questions and answers.                                                                                                               
+                                                                                                                                        
+     // * Persist data to text files (Users.txt and Questions.txt).                                                                                                 
+                                                                                                                       
+                                                                                                                                                                    
+   @ Features:                                                 
      * User Management:
        // - Secure SignUp/signIn with (username,password,email).
        // - Unique member IDs and static member tracking.
