@@ -695,9 +695,7 @@ void AskSystemManager::readQuestionFile(const std::string &filename) {
 		data.pop_back();
 		question_type = data.back();
 		data.pop_back();
-		std::cout
-				<< "\n\n" + question_type + "-" + author_user + "-" + asked_user
-						+ "-" + question_text + "-" + question_answer + "\n\n";
+
 		//check if data is corrupted and throw error if true.
 		try {
 			if ((question_type != "Parent" && question_type != "Thread")
