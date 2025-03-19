@@ -1,0 +1,5 @@
+Parent<>abdallah<>salem<>which is better for memory management and performance, Rust or C++?<>I think Rust is better for memory management while C++ is better for performance.
+Thread<>khaled<>salem<>why do you think so?<>Rust developers have proven this, search for this topic using AI tool like chatgpt.
+Thread<>ahmed<>salem<>do you think C++ is used in machine learning?<>I don't know for sure.
+Parent<>salem<>abdallah<>which master do you have?<>Computer Science.
+Thread<>salem<>abdallah<>where are you from?<>Egypt.
