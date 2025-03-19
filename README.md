@@ -1,30 +1,30 @@
 #=> Ask FM System (C++)
   - A Q&A platform inspired by Ask FM, built with modern C++.
 
- @ Overview:
+   @ Overview:
      This project simulates a simplified Ask FM-style system where users can:
-     * Sign up and log in with credentials.
-     * Ask questions to other users (with optional threaded replies).
-     * Answer questions directed to them.
-     * Delete questions they’ve asked.
-     * View public feeds of questions and answers.
-     * Persist data to text files (Users.txt and Questions.txt).
+     // * Sign up and log in with credentials.
+     // * Ask questions to other users (with optional threaded replies).
+     // * Answer questions directed to them.
+     // * Delete questions they’ve asked.
+     // * View public feeds of questions and answers.
+     // * Persist data to text files (Users.txt and Questions.txt).
      
- @ Features: 
+   @ Features: 
      * User Management:
-       - Secure SignUp/signIn with (username,password,email).
-       - Unique member IDs and static member tracking.
+       // - Secure SignUp/signIn with (username,password,email).
+       // - Unique member IDs and static member tracking.
      * Question System:
-       - Parent/Thread question hierarichy.
-       - Automatic question ID generation.
+       // - Parent/Thread question hierarichy.
+       // - Automatic question ID generation.
      * Error Handling:
-       - Custom Exceptions (DataFileCorruptionException , InvalidPasswordException)
+       // - Custom Exceptions (DataFileCorruptionException , InvalidPasswordException)
      * Class Manager for system:
-       - Ask manager class to manage the operations.
+       // - Ask manager class to manage the operations.
      * Singleton design pattern:
-       - AskSystemManager ensures a single system instance.
+       // - AskSystemManager ensures a single system instance.
 
-  @ Project Structure:
+   @ Project Structure:
       ├── include/  
       │   ├── question.h          # Question class declaration  
       │   ├── user.h              # User class declaration  
